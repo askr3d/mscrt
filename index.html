@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XOXO</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraft" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    
+    <div class="containerHeart">
+        <div class="hearts">
+            <span style="--i:12"></span>
+            <span style="--i:28"></span>
+            <span style="--i:21"></span>
+            <span style="--i:16"></span>
+            <span style="--i:24"></span>
+            <span style="--i:23"></span>
+            <span style="--i:20"></span>
+            <span style="--i:17"></span>
+            <span style="--i:11"></span>
+            <span style="--i:14"></span>
+            <span style="--i:26"></span>
+            <span style="--i:19"></span>
+            <span style="--i:30"></span>
+            <span style="--i:29"></span>
+            <span style="--i:15"></span>
+            <span style="--i:10"></span>
+            <span style="--i:25"></span>
+            <span style="--i:13"></span>
+            <span style="--i:27"></span>
+            <span style="--i:18"></span>
+            <span style="--i:12"></span>
+            <span style="--i:28"></span>
+            <span style="--i:21"></span>
+            <span style="--i:16"></span>
+            <span style="--i:24"></span>
+            <span style="--i:23"></span>
+            <span style="--i:20"></span>
+            <span style="--i:17"></span>
+            <span style="--i:11"></span>
+            <span style="--i:14"></span>
+            <span style="--i:26"></span>
+            <span style="--i:19"></span>
+            <span style="--i:30"></span>
+            <span style="--i:29"></span>
+            <span style="--i:15"></span>
+        </div>
+    </div>
+
+
+
+    <div class="cuboSwiper">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img onmouseover="mineMuted(), catKissMuted()" src="media/catHeart.jpg" />
+              </div>
+              <div class="swiper-slide">
+                  <video id="mine" onmouseover="minePlay(this)" onmouseleave="mineMuted(this)" autoplay muted loop src="media/mine.mp4"></video>
+                </div>
+              <div class="swiper-slide">
+                <img onmouseover="mineMuted(), catKissMuted()" src="media/levFlower.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <video id="catKiss" onmouseover="catKissPlay(this)" onmouseleave="catKissMuted(this)" autoplay muted loop src="media/catKiss.mp4"></video>
+              </div>
+              <div class="swiper-slide">
+                <img onmouseover="mineMuted(), catKissMuted()" src="media/emojiFlower.jpg">
+              </div>
+              <div class="swiper-slide">
+                <video autoplay muted loop src="media/kfc.mp4"></video>
+              </div>
+              <div class="swiper-slide">
+                <img onmouseover="mineMuted(), catKissMuted()" src="media/hugCat.jpg" />
+              </div>
+            </div>
+        </div>
+        <p>Pa usted korason</p>
+    </div>
+
+    <!--Cubo-->
+    <div class="cubeCofre" onclick="deleteCube()">
+        <div class="top"></div>
+        <div>
+            <span class="frente" style="--i:0;"></span>
+            <span class="lados" style="--i:1;"></span>
+            <span class="lados" style="--i:2;"></span>
+            <span class="lados" style="--i:3;"></span>
+        </div>
+    </div>
+    
+    <!--Animacion minicuadros-->
+    <section id="telon">
+        <div class="banner">
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./scripts/script.js"></script>
+    
+</body>
+</html>
